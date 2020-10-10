@@ -5,6 +5,8 @@ delta_age = (today - birthdate)
 print(delta_age)
 days_old = delta_age.days
 print(days_old, "days")
+
+
 years_old = days_old // 365
 print(years_old, "years old")
 print(f"You are {years_old} years old ")
